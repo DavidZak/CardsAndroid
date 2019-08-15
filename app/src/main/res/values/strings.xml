@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KotlinMVP</string>
+
+    <string name="search_hint">Поиск…</string>
+
+    <string name="artist">Illustrated by: %1$s</string>
+
+</resources>

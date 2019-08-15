@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="146dp"
+        android:layout_height="204dp"
+        tools:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivImage"
+        tools:text="asd fsdfhsad hfhdsafh sdafsadf"
+        android:paddingStart="8dp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivImage"
+        android:layout_below="@+id/tvName"
+        tools:text="asd fsdfhsad hfhdsafh sdafsadf"
+        android:paddingStart="8dp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvOracle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivImage"
+        android:layout_below="@+id/tvType"
+        tools:text="asd fsdfhsad hfhdsafh sdafsadf"
+        android:paddingStart="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ivImage"
+        android:layout_below="@+id/tvOracle"
+        tools:text="asd fsdfhsad hfhdsafh sdafsadf"
+        android:gravity="end|center"
+        android:paddingStart="8dp"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray" />
+
+</RelativeLayout>
