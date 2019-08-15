@@ -7,22 +7,17 @@ import android.view.View
 import android.widget.Toast
 import com.jakewharton.rxbinding2.view.RxView
 import com.jakewharton.rxbinding2.view.clicks
-import com.jakewharton.rxbinding2.view.visibility
-import com.jakewharton.rxbinding2.widget.RxTextView
 import com.jakewharton.rxbinding2.widget.textChanges
 import com.mradmin.yks13.base.BaseActivity
 import com.mradmin.yks13.kotlinmvp.R
 import com.mradmin.yks13.kotlinmvp.di.component.DaggerActivityComponent
 import com.mradmin.yks13.kotlinmvp.di.module.ActivityModule
-import com.mradmin.yks13.kotlinmvp.extension.afterTextChanged
 import com.mradmin.yks13.kotlinmvp.model.Card
 import com.mradmin.yks13.kotlinmvp.presentation.contract.MainContract
-import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.layout_search_view.*
-import java.util.*
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
