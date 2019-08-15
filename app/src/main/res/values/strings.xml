@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KotlinMVP</string>
+    <string name="app_name">CardsApp</string>
 
     <string name="search_hint">Поиск…</string>
 
