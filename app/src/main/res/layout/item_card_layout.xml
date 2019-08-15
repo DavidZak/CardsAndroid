@@ -13,6 +13,11 @@
         tools:src="@mipmap/ic_launcher"
         android:scaleType="centerCrop"/>
 
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+
     <TextView
         android:id="@+id/tvName"
         android:layout_width="match_parent"
